@@ -1,0 +1,108 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/12/2016, 06:37:33 AM
+    Author     : Pepiuox
+*/
+
+body
+{
+    text-align:center;
+    width:100%;
+    margin:0 auto;
+    padding:0px;
+    font-family:helvetica;
+}
+#wrapper
+{
+    text-align:center;
+    margin:0 auto;
+    padding:0px;
+    width:995px;
+}
+#item_div
+{
+    float:left;
+    background-color:#E6E6E6;
+    margin-left:180px;
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+}
+.items
+{
+    float:left;
+    padding:10px;
+    background-color:white;
+    width:150px;
+    height:240px;
+    margin-top:20px;
+    box-shadow:0px 0px 10px 0px #A4A4A4;
+    box-sizing:border-box;
+    margin:20px;
+}
+.items img
+{
+    width:130px;
+}
+.items p
+{
+    margin:5px;
+    font-size:14px;
+    color: green;
+}
+#cart_label_div
+{
+    clear:both;
+    float:left;
+    text-align:center;
+    width:610px;
+    margin-left:180px;
+    margin-top:40px;
+    background-color:#E6E6E6;
+}
+#cart_label_div p
+{
+    margin:10px;
+    color:#585858;
+    font-size:20px;
+    font-weight:bold;
+}
+#mycart
+{
+    clear:both;
+    float:left;
+    width:604px;
+    min-height:200px;
+    margin-left:180px;
+    border:3px dashed #585858;
+}
+#mycart #mycart_label
+{
+    font-size:25px;
+    color:#585858;
+    font-weight:bold;
+}
+#mycart .cart_items
+{
+    border-bottom:1px dashed silver;
+    padding:20px;
+    padding-left:10px;
+    text-align:left;
+}
+#mycart .cart_items img
+{
+    width:70px;
+    height:50px;
+    float:left;
+    margin-right:10px;
+}
+#mycart .cart_items p
+{
+    margin:0px;
+    font-size:15px;
+    color:green;
+}

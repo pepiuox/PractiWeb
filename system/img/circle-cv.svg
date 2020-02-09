@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="400"
+   height="400"
+   viewBox="0 0 400 400.00001"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   inkscape:export-filename="E:\Projects\paola\img\circle-cv.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   sodipodi:docname="circle-cv.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.9899495"
+     inkscape:cx="50.529708"
+     inkscape:cy="148.40731"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1536"
+     inkscape:window-height="801"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-652.36216)">
+    <path
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 200,0 C 89.54297,-1.9330031e-4 -1.9330031e-4,89.54297 0,200 -1.9330031e-4,310.45703 89.54297,400.00019 200,400 310.45703,400.00019 400.00019,310.45703 400,200 400.00019,89.54297 310.45703,-1.9330031e-4 200,0 Z m 0,18.572266 C 300.19958,18.57273 381.42727,99.800422 381.42773,200 381.42727,300.19958 300.19958,381.42727 200,381.42773 99.800422,381.42727 18.57273,300.19958 18.572266,200 18.572728,99.800421 99.800421,18.572728 200,18.572266 Z"
+       transform="translate(0,652.36216)"
+       id="path4136"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ssssssssss" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:216.59405518px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="44.957581"
+       y="929.88336"
+       id="text4141"><tspan
+         sodipodi:role="line"
+         id="tspan4143"
+         x="44.957581"
+         y="929.88336">CV</tspan></text>
+    <path
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -419.21289 4.0410156 L -419.21289 404.04102 L -19.212891 404.04102 L -19.212891 4.0410156 L -419.21289 4.0410156 z M -403.05078 20.203125 L -35.375 20.203125 L -35.375 387.87891 L -403.05078 387.87891 L -403.05078 20.203125 z "
+       transform="translate(0,652.36216)"
+       id="rect4136"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       id="text4142"
+       y="933.92438"
+       x="-374.25531"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:216.59405518px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="933.92438"
+         x="-374.25531"
+         id="tspan4144"
+         sodipodi:role="line">CV</tspan></text>
+  </g>
+</svg>

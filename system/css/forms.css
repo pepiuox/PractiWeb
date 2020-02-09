@@ -1,0 +1,230 @@
+form {
+    max-width : 100%;
+    font : 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background : #fff;
+    margin : 10px 20px;
+    padding : 0;
+}
+form div {
+    margin: 0px;
+}
+form li {
+    display : block;
+    list-style : none;
+    margin : 10px 0 0 20px;
+    padding : 0;
+}
+form label {
+    font-weight : 400;
+    display : block;
+    font : 14px Arial, Helvetica, sans-serif;
+    color : #555;
+    margin : 6px 0 4px 10px;
+    padding : 0;
+}
+form .required {
+    color : red;
+}
+form .inner-wrap {
+    background : #f8f8f8;
+    margin-bottom : 15px;
+    padding : 30px;
+}
+form h1 {
+    background : #2a88ad;
+    color : #fff;
+    font : normal normal 30px Bitter, serif;
+    border : #257c9e solid 1px;
+    margin : -30px -30px 30px;
+    padding : 20px 30px 15px;
+}
+form h1 > span {
+    display : block;
+    margin-top : 2px;
+    font : 13px Arial, Helvetica, sans-serif;
+}
+form .section {
+    font : normal normal 20px Bitter, serif;
+    color : #2a88ad;
+    margin-bottom : 5px;
+}
+form .section span {
+    background : #2a88ad;
+    position : absolute;
+    border : #fff solid 4px;
+    font-size : 14px;
+    margin-left : -45px;
+    color : #fff;
+    margin-top : -3px;
+    padding : 5px 10px;
+}
+form input[type="submit"], form input[type="button"] {
+    float: right;
+    margin-top : 10px;
+    background : #B5B6C3;
+    border : none;
+    color : #fff;
+    border : 1px  solid #7C91A5;
+    font-size : 14px;
+    padding : 6px 12px;
+}
+form input[type="button"]:hover, form input[type="submit"]:hover {
+    background : #7C91A5;
+}
+form .privacy-policy {
+    float : right;
+    width : 24%;
+    font : 12px Arial, Helvetica, sans-serif;
+    color : #4d4d4d;
+    margin-top : 10px;
+    text-align : right;
+}
+form div input[type="text"], form div input[type="password"], form div input[type="email"], form div input[type="url"], form div input[type="date"], form div input[type="month"], form div input[type="time"], form div input[type="datetime"], form div input[type="datetime-local"], form div input[type="week"], form div input[type="number"], form div input[type="search"], form div input[type="tel"], form div input[type="color"], form div select, form div textarea, form input[type="text"], form input[type="password"], form input[type="email"], form input[type="url"], form input[type="date"], form input[type="month"], form input[type="time"], form input[type="datetime"], form input[type="datetime-local"], form input[type="week"], form input[type="number"], form input[type="search"], form input[type="tel"], form input[type="color"], form select, form textarea {
+    width: 100%;    
+    margin: 4px 0 8px 0;
+    background: #F3F3F3;
+    box-sizing: border-box;     
+    display : block;
+    border : #ccc solid 1px;
+    vertical-align : middle;
+    padding : 4px 8px;
+}
+form input[type="color"] {
+    padding : 0.2em 0.5em;
+}
+form input[type="text"]:focus, form input[type="password"]:focus, form input[type="email"]:focus, form input[type="url"]:focus, form input[type="date"]:focus, form input[type="month"]:focus, form input[type="time"]:focus, form input[type="datetime"]:focus, form input[type="datetime-local"]:focus, form input[type="week"]:focus, form input[type="number"]:focus, form input[type="search"]:focus, form input[type="tel"]:focus, form input[type="color"]:focus, form select:focus, form textarea:focus {
+    outline : 0;
+    background : #B5B6C3;
+    border : 1px  solid #7C91A5;
+}
+form input[type="file"]:focus, form input[type="radio"]:focus, form input[type="checkbox"]:focus {
+    outline : thin solid #B5B6C3;
+}
+form checkbox, form radio {
+    display : block;
+    margin : 0.5em 0;
+}
+form input[type="text"][disabled], form input[type="password"][disabled], form input[type="email"][disabled], form input[type="url"][disabled], form input[type="date"][disabled], form input[type="month"][disabled], form input[type="time"][disabled], form input[type="datetime"][disabled], form input[type="datetime-local"][disabled], form input[type="week"][disabled], form input[type="number"][disabled], form input[type="search"][disabled], form input[type="tel"][disabled], form input[type="color"][disabled], form select[disabled], form textarea[disabled] {
+    background-color : #eaeded;
+    color : #cad2d3;
+}
+form input[readonly], form select[readonly], form textarea[readonly] {
+    background-color : #eee;
+    color : #777;
+    border-color : #ccc;
+}
+form select {
+    height : 2.25em;
+    border : #ccc solid 1px;
+    background-color : #fff;
+}
+form fieldset {
+    border : 0;
+    margin : 0;
+    padding : 0;
+}
+form legend {
+    display : block;
+    width : 100%;
+    margin-bottom : 0.3em;
+    color : #333;
+    border-bottom : 1px solid #e5e5e5;
+    padding : 0.3em 0;
+}
+form-stacked input[type="text"], form-stacked input[type="password"], form-stacked input[type="email"], form-stacked input[type="url"], form-stacked input[type="date"], form-stacked input[type="month"], form-stacked input[type="time"], form-stacked input[type="datetime"], form-stacked input[type="datetime-local"], form-stacked input[type="week"], form-stacked input[type="number"], form-stacked input[type="search"], form-stacked input[type="tel"], form-stacked input[type="color"], form-stacked input[type="file"], form-stacked select, form-stacked label, form-stacked textarea {
+    display : block;
+    margin : 0.25em 0;
+}
+form-aligned control-group {
+    margin-bottom : 0.5em;
+}
+form-aligned control-group label {
+    text-align : right;
+    display : block;
+    vertical-align : middle;
+    width : 10em;
+    margin : 0 1em 0 0;
+}
+form-aligned controls {
+    margin : 1.5em 0 0 11em;
+}
+form group fieldset {
+    margin-bottom : 10px;
+}
+form group input, form group textarea {
+    display : block;
+    position : relative;
+    top : -1px;
+    margin : 0 0 -1px;
+    padding : 10px;
+}
+form group input:focus, form group textarea:focus {
+    z-index : 3;
+}
+form group input:first-child, form group textarea:first-child {
+    top : 1px;
+    margin : 0;
+}
+form group button {
+    margin : 0.35em 0;
+}
+form input-2-3 {
+    width : 66%;
+}
+form input-1-3 {
+    width : 33%;
+}
+form help-inline, form-message-inline {
+    display : block;
+    padding-left : 0.3em;
+    color : #666;
+    vertical-align : middle;
+    font-size : 0.875em;
+}
+form-message {
+    display : block;
+    color : #666;
+    font-size : 0.875em;
+}
+form, fieldset, legend{margin:10px; padding:0; border:none;}
+legend{display:none;}
+
+/* ----------------------------------------------Search Form-------------------------------------*/
+
+#topbar input{
+    display:block;
+    float:left;
+    width:24.06%;
+    margin:0 5px 0 0;
+    padding:5px;
+    color:#666666;
+    background-color:#FFFFFF;
+    border:1px solid #999999;
+}
+#topbar input#go{
+    width:auto;
+    height:auto;
+    margin:0;
+    padding:4px;
+    font-weight:bold;
+    text-transform:uppercase;
+    color:#FFFFFF;
+    background-color:#558E99;
+    border-color:#558E99;
+    cursor:pointer;
+}
+@media only screen and (max-width:768px) {
+    form {
+        text-align : center;
+    }
+    form, form input, form textarea, form select, form button, form label {
+        width : 100%;
+    }
+    form div input[type="text"], form div input[type="password"], form div input[type="email"], form div input[type="url"], form div input[type="date"], form div input[type="month"], form div input[type="time"], form div input[type="datetime"], form div input[type="datetime-local"], form div input[type="week"], form div input[type="number"], form div input[type="search"], form div input[type="tel"], form div input[type="color"], form div select, form div textarea {
+        width : 92%;
+        display : block;
+        border : #ccc solid 1px;
+        vertical-align : middle;
+        padding : 4px 8px;
+    }
+}

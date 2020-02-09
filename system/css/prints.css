@@ -1,0 +1,239 @@
+body {
+  overscroll-behavior: contain;
+}
+.controls{    
+    float: right;
+    z-index: 300;    
+    color : #B5B6C3;    
+}
+.controls .boxes{    
+    display: none;   
+}
+.paypalCode{  
+    position: relative;
+    display:block;     
+    width: 100%;
+    text-align: left;   
+    margin: 0;
+    padding: 0;
+
+}
+.paypalCode > form{    
+    width: 50%;
+    min-height: 100%;  
+    top: 0px;
+    left: 0px;
+    margin: 10px 0px 20px 0px;
+    padding: 0;
+}
+.paypalCode > form > input{
+    float: right;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    margin: 0;
+    padding: 0;
+}
+.paypalCode > form > table, .paypalCode > form > table tr, .paypalCode > form > table tr td{
+    border: 0;
+    background: #ffffff;
+}            
+.galleryThumbnailsContainer, .galleryPreviewContainer{
+    display: block;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.galleryShow, .galleryContainer, .galleryContent {
+    display: block;   
+}
+.galleryContent{        
+    margin-top: 40px;  
+}
+.galleryPreviewArrows{
+    display: block;
+    width:100%;
+}
+.mySlides{
+    width: 850px;
+    height: 566px;
+    margin: 0 auto;
+    padding: 0px;
+}
+@media only screen and (max-width:1600px) {
+    .mySlides{
+        width: 700px;
+        height: 466px
+    }
+    .galleryPreviewArrows a {
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 1040px) {
+    .mySlides{ 
+        width: 600px;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .mySlides{
+        width: 500px;
+        height: 333px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .mySlides{ 
+        width: 400px;
+        height: 360px;
+    }
+    .galleryPreviewArrows a {
+        height: 260px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .mySlides{
+        width: 450px;
+        height: 300px;
+    }
+    .galleryPreviewArrows a {
+        height: 140px;
+    }
+}
+@media only screen and (max-width:375px) {
+    .mySlides{
+        width: 340px;
+        height: 280px;
+    }
+    .galleryPreviewArrows a {
+        height: 100px;
+    }
+}
+.galleryPreviewImage{
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.galleryPreviewImage li {
+    display: none;     
+    margin: 0;
+    padding: 0;
+}
+li.previewImage1 {
+    display: block;
+}
+.galleryPreviewArrows a {
+    z-index: 30;
+    font-family: Arial;
+    font-size: 30px;
+    background: transparent !important;
+    width: 49%;
+    height: 40%;
+    line-height: 70px;
+    display: block;
+    text-align: center;
+    color: #FFF;
+    text-decoration: none;                
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    margin-top: 0px;
+}
+a.nextSlideArrow {
+    right: 1px;
+    left: auto;
+}
+.galleryPreviewArrows a:hover {
+    background: transparent !important;
+    margin-top: -1px;
+}
+.galleryNavigationBullets {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.galleryNavigationBullets span {
+    display: none;
+}
+.galleryNavigationBullets a {
+    float: left;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 5px;
+    background: #ddd;
+}
+.galleryNavigationBullets a:hover,
+.galleryNavigationBullets a.active {
+    background: #555;
+}
+.description{
+    display:block;
+    width: 100%;    
+}
+.description p,
+.description span{
+    margin: 0px;
+    padding: 0px;
+}
+.captionImag{   
+    display:block;
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    padding: 0;
+}
+.captionImag .capt{
+    width: 100%;   
+    text-align: center;    
+    display: block;
+    font-size: 12px;
+    margin: 10px 0px 20px 0px;
+}
+.captionImag .capt p{
+    font-size: 12px;
+    text-align: center;   
+    margin: 10px 0px;
+}
+
+picture img, img.img-responsive {
+    width: 100%;
+    
+    height: auto;
+}
+.galleryThumbnails img:hover {                
+    border: 1px solid #999;
+}
+.galleryThumbnails img.active {
+    border: 1px solid #666;
+}
+.scrollpanel {
+    width: 850px;
+    height: 566px;    
+}
+.viewContent{
+    position: relative;
+    top: 20px;
+    margin: 30px 0 20px 0;
+    display: block;    
+    width: 100%;
+    z-index: 150;
+}
+.viewContent a{
+    display: block;
+    font-size: 12px;
+}
+
+.galleryContent{
+    font-size: 12px;
+}
+.galleryContent h5{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.galleryContent p{   
+    margin: 10px 0px;
+}
+
+

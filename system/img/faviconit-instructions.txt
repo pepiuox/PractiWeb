@@ -1,0 +1,25 @@
+thanks for using faviconit!
+copy the files to your site and add this code inside the HTML <HEAD> tag:
+
+	<!-- ****** faviconit.com favicons ****** -->
+	<link rel="shortcut icon" href="<?php echo B_URL; ?>system/img/avicon.ico">
+	<link rel="icon" sizes="16x16 32x32 64x64" href="<?php echo B_URL; ?>system/img/avicon.ico">
+	<link rel="icon" type="image/png" sizes="196x196" href="<?php echo B_URL; ?>system/img/avicon-192.png">
+	<link rel="icon" type="image/png" sizes="160x160" href="<?php echo B_URL; ?>system/img/avicon-160.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="<?php echo B_URL; ?>system/img/avicon-96.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="<?php echo B_URL; ?>system/img/avicon-64.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="<?php echo B_URL; ?>system/img/avicon-32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="<?php echo B_URL; ?>system/img/avicon-16.png">
+	<link rel="apple-touch-icon" href="<?php echo B_URL; ?>system/img/avicon-57.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="<?php echo B_URL; ?>system/img/avicon-114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="<?php echo B_URL; ?>system/img/avicon-72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="<?php echo B_URL; ?>system/img/avicon-144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="<?php echo B_URL; ?>system/img/avicon-60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="<?php echo B_URL; ?>system/img/avicon-120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="<?php echo B_URL; ?>system/img/avicon-76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="<?php echo B_URL; ?>system/img/avicon-152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="<?php echo B_URL; ?>system/img/avicon-180.png">
+	<meta name="msapplication-TileColor" content="#FFFFFF">
+	<meta name="msapplication-TileImage" content="<?php echo B_URL; ?>system/img/avicon-144.png">
+	<meta name="msapplication-config" content="<?php echo B_URL; ?>system/img/browserconfig.xml">
+	<!-- ****** faviconit.com favicons ****** -->

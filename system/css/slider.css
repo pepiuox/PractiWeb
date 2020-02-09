@@ -1,0 +1,336 @@
+.gallery{           
+    display: block;       
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;       
+    position: relative;    
+    top: 0;
+}
+.gallery .controls{
+    float: right;
+    z-index: 99;
+    width: 100%;
+    height: 20px;
+    text-align: right;
+    color: #555555;
+    margin:0px 2px 2px 0px;    
+    font-weight: normal;
+    position: relative;
+    top: 0px;   
+    right: 2px;
+}
+.gallery .controls a{
+    color: #555555;
+}
+.gallery .right span{
+    color: #1585CF;
+}
+.active{
+    display: block;
+}
+.slider {
+    overflow: hidden;
+    display: block;
+    background: #fff;
+    width: 850px;    
+    width: 624px;    
+    margin: 0px;
+    padding: 0px;          
+    position: relative;        
+}
+.slider .slideImg {    
+    width: 850px;    
+    width: 624px;
+    margin: 0;
+    padding: 0;   
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    border: none;
+}
+
+.slider .slideImg img {
+    cursor:pointer;
+    display:block;  
+    border: none;          
+    position: absolute;            
+    width: 850px;
+    height: auto;   
+}
+
+.slider li img:empty {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.slider .capt {
+    cursor:pointer;
+    z-index: 3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3em;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    line-height: 3em;
+    padding: 0 1em;
+    font-size: 1.5em;
+}
+
+.slider .capt a {
+    color: inherit;
+}
+.gallerybox{
+    display: none;
+    width: 850px;    
+    width: 624px;    
+    margin: 0px;
+    padding: 0px; 
+    position: relative; 
+
+}
+#vertical-scrollbar, .contentScrollbar{        
+    overflow:auto;
+    overflow-y: auto;    
+    width: 850px;
+    width: 624px;      
+
+}
+
+/* Vertical Scrollbar Styles */
+.contentScrollbar::-webkit-scrollbar{
+width:12px;
+background-color:#ffffff;
+} 
+.contentScrollbar::-webkit-scrollbar-track{
+border:1px gray solid;
+border-radius:6px;
+-webkit-box-shadow:0 0 6px gray inset;
+} 
+.contentScrollbar::-webkit-scrollbar-thumb{
+    background-color:#61778D;
+    border-radius:6px;
+}
+.contentScrollbar::-webkit-scrollbar-thumb:hover{
+    background-color:#75818C;
+    border:1px solid #333333;
+}
+.contentScrollbar::-webkit-scrollbar-thumb:active{
+    background-color:#79B5F2;
+    border:1px solid #333333;
+} 
+.contentScrollbar::-webkit-scrollbar:vertical {   
+    border-color: transparent;
+    border-width: 1px 0;
+    background-color:#61778D;
+    background-repeat: repeat-y;
+}
+
+.contentScrollbar::-webkit-scrollbar:vertical:corner-present {
+    border-bottom-width: 0;
+}
+
+.contentScrollbar::-webkit-scrollbar-track:vertical:disabled:corner-present {
+    margin-bottom: 5px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border:1px gray solid;
+    border-radius:10px;
+    -webkit-box-shadow:0 0 6px gray inset;
+}
+
+.contentScrollbar::-webkit-scrollbar:vertical:window-inactive {    
+    background-color:#61778D;
+}
+
+.contentScrollbar::-webkit-scrollbar-thumb:vertical {    
+    border-color: transparent;
+    border-width: 13px 0;
+    min-height: 20px;
+}
+
+.contentScrollbar::-webkit-scrollbar-thumb:vertical:hover {    
+}
+
+.contentScrollbar::-webkit-scrollbar-thumb:vertical:active {    
+}
+
+.contentScrollbar::-webkit-scrollbar-thumb:vertical:window-inactive {    
+}
+
+.contentScrollbar::-webkit-scrollbar-track-piece:vertical:start:no-button {
+    margin-top: 6px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+
+.contentScrollbar::-webkit-scrollbar-track-piece:vertical:end:no-button {
+    margin-bottom: 6px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+
+.contentScrollbar::-webkit-scrollbar-track-piece:vertical:end:no-button:corner-present,
+.contentScrollbar::-webkit-scrollbar-track:vertical:disabled {    
+    border-color: transparent;
+    border-width: 13px 0;
+}
+
+.contentScrollbar::-webkit-scrollbar-track-piece:vertical:decrement {    
+    border-color: transparent;
+    border-width: 13px 0 0 0;
+}
+
+.contentScrollbar::-webkit-scrollbar-track-piece:vertical:decrement:hover {    
+}
+
+.contentScrollbar::-webkit-scrollbar-track-piece:vertical:decrement:active {    
+}
+
+.contentScrollbar::-webkit-scrollbar-track-piece:vertical:increment {    
+    border-color: transparent;
+    border-width: 0 0 13px 0;
+}
+
+.contentScrollbar::-webkit-scrollbar-track-piece:vertical:increment:hover {    
+}
+
+.contentScrollbar::-webkit-scrollbar-track-piece:vertical:increment:active {    
+}
+
+.contentScrollbar::-webkit-scrollbar-button:vertical {
+    height: 20px;    
+    border-color: transparent;
+    border-width: 2px 0;
+}
+
+.contentScrollbar::-webkit-scrollbar-button:vertical:decrement {
+    background-color:#61778D;
+}
+
+.contentScrollbar::-webkit-scrollbar-button:vertical:decrement:hover {    
+    background-color:#61778D;
+}
+
+.contentScrollbar::-webkit-scrollbar-button:vertical:decrement:active {    
+    background-color:#61778D;
+}
+
+.contentScrollbar::-webkit-scrollbar-button:vertical:decrement:window-inactive {    
+    background-color:#61778D;
+}
+
+.contentScrollbar::-webkit-scrollbar-button:vertical:increment {
+    background-color:#61778D;
+}
+
+.contentScrollbar::-webkit-scrollbar-button:vertical:increment:hover {    
+    background-color:#61778D;
+}
+
+.contentScrollbar::-webkit-scrollbar-button:vertical:increment:active {    
+    background-color:#61778D;
+}
+
+.contentScrollbar::-webkit-scrollbar-button:vertical:increment:window-inactive {    
+    background-color:#61778D;
+}
+
+.contentScrollbar::-webkit-scrollbar-button:vertical:end:increment:corner-present {
+    border-bottom-width: 0;
+    height: 19px;
+}
+
+#nscroll { position:relative; margin:0px auto; padding:0px; width: 780px; width: 624px; overflow: hidden; }
+#nscroll .content { background: #fff;; width: 1040px; height: 770px; }
+#gboxes{
+    width: 850px;    
+    height: 566px;
+    background: #ffffff;
+}
+#gboxes div {    
+    float: left;
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0;        
+}
+#gboxes a {
+    width: 170px;
+    height: 170px;
+    margin: 5px;
+}
+#gboxes a:hover{
+    border: 1px solid #888;
+
+}
+#gboxes img{    
+    margin: 0 10px 10px 0;
+    padding: 0px;
+    width: 175px;
+    height: 140px;
+    border: 1px solid #e5e5e5;
+    background: #f6f6f6;
+    float: left;
+    text-align: center;
+    font-family: Verdana,Helvetica,Arial,sans-serif;
+
+}
+.galTitle{
+    display: block;
+    width: 100%;
+    height: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+.galDesc{display:none; width: 100%; padding: 10px 0;}
+@media only screen and (max-width: 1040px) {
+    .galleryPreviewImage, .mySlides,.galleryThumbnailsContainer,.galleryThumbnails{ 
+        width: 600px;
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .galleryPreviewImage, .mySlides,.galleryThumbnailsContainer,.galleryThumbnails{ 
+        width: 400px;
+        height: 360px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .galleryPreviewImage, .mySlides,.galleryThumbnailsContainer,.galleryThumbnails{ 
+        width: 400px;
+        height: 258px;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    img { max-width: 100%; }
+    img { max-height: 100%; }
+}
+@media screen and (orientation: landscape) {
+    img { max-width: 100%; }
+    img { max-height: 100%; }
+}
+@media only screen and (max-width: 320px){
+    /* content */
+}
+@media only screen and (max-width: 480px){
+    /* content */
+}
+@media only screen and (max-width: 600px){
+    /* content */
+}
+@media only screen and (max-width: 768px){
+    /* content */
+}
+@media only screen and (max-width: 1020px){
+    /* content */
+}

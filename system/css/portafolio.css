@@ -1,0 +1,197 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/08/2016, 12:32:24 AM
+    Author     : PePiuoX
+*/
+.controls{    
+    float: right;
+    z-index: 300;    
+    color : #B5B6C3;    
+}            
+.galleryShow, .galleryContainer, .galleryPreviewContainer, .galleryContent {
+    width: 850px;
+    display: block;
+    position: relative;
+    top: 0;
+    margin: 0 auto;
+    padding: 0px;
+}
+.galleryContent{    
+    float: left;    
+    margin-top: 40px;    
+}
+.galleryPreviewImage{
+    display: block;
+    width: 850px; 
+    text-align: center;
+}
+.mySlides{
+    display: block;
+    width: 850px;
+    height: 520px;
+    text-align: center;
+}
+.mySlides iframe{
+    width: 850px;
+    height: 520px;    
+    text-align: center;
+}
+.captionImag{
+    float: left;
+    display: block;
+    position: relative;
+    text-align: right;
+    z-index: 10;
+    width: 850px;    
+    margin: 0 auto;
+    padding: 0;
+}
+.captionImag span{    
+    font-size: 12px;
+}
+.galleryPreviewImage ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.galleryPreviewImage li {
+    display: none;     
+    margin: 0;
+    padding: 0;
+}
+li.previewImage1 {
+    display: block;
+}
+.mySlides .video, .video-stream .html5-main-video{   
+    width: 850px;
+    height: 400px;    
+}
+.responsive iframe,
+.responsive embed,
+.responsive object {    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+.galleryPreviewArrows a {
+    z-index: 30;
+    font-family: Arial;
+    font-size: 30px;
+    background: transparent !important;
+    width: 49%;
+    height: 100%;
+    line-height: 70px;
+    display: block;
+    text-align: center;
+    color: #FFF;
+    text-decoration: none;                
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    bottom: 0px;
+    margin-top: 0px;
+}
+a.nextSlideArrow {
+    right: 1px;
+    left: auto;
+}
+.galleryPreviewArrows a:hover {
+    background: transparent !important;
+    margin-top: -1px;
+}
+.galleryNavigationBullets {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.galleryNavigationBullets span {
+    display: none;
+}
+.galleryNavigationBullets a {
+    float: left;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 5px;
+    background: #ddd;
+}
+.galleryNavigationBullets a:hover,
+.galleryNavigationBullets a.active {
+    background: #555;
+}
+.galleryThumbnailsContainer {
+    display: block;
+    width: 850px;
+    height: 520px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 10px 0;
+    position: relative;                
+}
+.galleryThumbnails {    
+    width: 850px;
+    height: 520px;   
+}
+.galleryThumbnails a {                
+    float: left;
+    width: 140px;
+    height: 120px;
+    padding: 0;                
+    margin: 5px;    
+}
+.galleryThumbnails a img {                    
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;            
+}            
+.galleryThumbnails a:hover img {                
+    border: 1px solid #999;
+}
+.galleryThumbnails a.active img {
+    border: 1px solid #666;
+}
+.scrollpanel {
+    width: 850px;
+    height: 520px;    
+
+    .sp-scrollbar {
+        width: 10px;
+        margin: 4px;
+        background-color: #ccc;
+        cursor: pointer;
+
+        .sp-thumb {
+            background-color: #aaa;
+        }
+    }
+    .sp-scrollbar.active
+    .sp-thumb {
+        background-color: #999;
+    }
+}
+
+@media only screen and (max-width: 1040px) {
+    .galleryPreviewImage, .mySlides,.galleryThumbnailsContainer,.galleryThumbnails{ 
+        width: 600px;
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .galleryPreviewImage, .mySlides,.galleryThumbnailsContainer,.galleryThumbnails{ 
+        width: 400px;
+        height: 360px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .galleryPreviewImage, .mySlides,.galleryThumbnailsContainer,.galleryThumbnails{ 
+        width: 400px;
+        height: 258px;
+    }
+}

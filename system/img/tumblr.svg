@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="tumblr.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="-122.06648"
+     inkscape:cy="517.97969"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1536"
+     inkscape:window-height="801"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <image
+       sodipodi:absref="E:\Projects\paola\img\youtube.png"
+       xlink:href="youtube.png"
+       width="32"
+       height="32"
+       preserveAspectRatio="none"
+       id="image4157"
+       x="-70.285736"
+       y="512.43365" />
+    <rect
+       style="opacity:0.01000001;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.00996262;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4160"
+       width="299.99005"
+       height="299.99005"
+       x="113.3151"
+       y="545.93866"
+       ry="0"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1"
+       d="m 276.73604,845.25105 c -18.00169,-2.2605 -33.66666,-8.52066 -45.92419,-18.35269 -11.36409,-9.1154 -17.52384,-18.96337 -19.68994,-31.47947 -0.27375,-1.58175 -0.64406,-3.63084 -0.82219,-4.55353 -0.17906,-0.9225 -0.45562,-28.74712 -0.61593,-61.83215 l -0.29157,-60.1545 -20.4959,-0.12469 -20.49581,-0.12469 0.12468,-21.17175 0.12469,-21.17184 5.03288,-1.73644 c 9.74934,-3.36393 18.49584,-7.49184 24.96534,-11.7824 4.06622,-2.69672 12.31303,-10.81913 16.24753,-16.00228 8.82844,-11.63063 14.349,-25.30191 17.23931,-42.69207 0.54657,-3.28987 1.10363,-6.46687 1.2375,-7.06003 l 0.24375,-1.0784 21.31744,0 21.31744,0 0.12281,34.63068 0.12281,34.63078 34.87041,0.12282 34.8705,0.12281 0,26.59584 0,26.59594 -34.8705,0.12281 -34.87041,0.12281 0.0562,51.52679 c 0.0563,55.64625 0.0281,54.9119 2.59332,59.93962 1.76062,3.45113 4.69959,6.71672 8.45943,9.39975 4.06735,2.90241 9.67828,5.20416 15.56091,6.38344 15.08737,3.02456 35.75719,-1.61269 51.49678,-11.553 1.61831,-1.02216 3.08091,-1.85841 3.25012,-1.85841 0.16969,0 0.3075,10.55316 0.3075,23.45147 l 0,23.45156 -2.75606,1.26563 c -9.51853,4.37118 -20.63259,8.3655 -29.91731,10.752 -14.66231,3.76884 -35.36719,5.30165 -48.81084,3.6135 z"
+       id="path4147"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+</svg>

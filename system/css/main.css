@@ -1,0 +1,193 @@
+
+.topnav {
+    font-family: 'proximanova-regular';
+    max-width: 100%;
+    max-height: 100%;
+    background: #ffffff;
+    margin: 4em auto;
+
+}
+.topnav .iconMenu{
+    display: none;
+}
+.topnav ul {
+    /* by default hide all sub menus */
+    display: none;
+}
+.topnav li {
+    font-size: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.topnav input[type=checkbox] {
+    /* hide native checkbox */
+    position: absolute;
+    opacity: 0;
+}
+.topnav label, .topnav a {
+    position: relative;
+    display: block;
+    padding: 18px 18px 18px 64px;
+    background: #ffffff;   
+    color: #4d5158;
+    font-size: 12px;
+}
+.no-touch .topnav label:hover, .no-touch .topnav a:hover {
+    color: #52565d;
+}
+.topnav label::before, .topnav label::after, .topnav a::after {
+    /* icons */
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.topnav label {
+    cursor: pointer;
+}
+.topnav label::before, .topnav label::after {
+    background-image: url(../img/cd-icons.svg);
+    background-repeat: no-repeat;
+}
+.topnav label::before {
+    /* arrow icon */
+    left: 18px;
+    background-position: 0 0;
+    -webkit-transform: translateY(-50%) rotate(-90deg);
+    -moz-transform: translateY(-50%) rotate(-90deg);
+    -ms-transform: translateY(-50%) rotate(-90deg);
+    -o-transform: translateY(-50%) rotate(-90deg);
+    transform: translateY(-50%) rotate(-90deg);
+}
+.topnav label::after {
+    /* folder icons */
+    left: 41px;
+    background-position: -16px 0;
+}
+.topnav a::after {
+    /* image icon */
+    left: 36px;
+    background: url(../img/cd-icons.svg) no-repeat -48px 0;
+}
+.topnav input[type=checkbox]:checked + label::before {
+    /* rotate arrow */
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.topnav input[type=checkbox]:checked + label::after {
+    /* show open folder icon if item is checked */
+    background-position: -32px 0;
+}
+.topnav input[type=checkbox]:checked + label + ul,
+.topnav input[type=checkbox]:checked + label:nth-of-type(n) + ul {
+    /* use label:nth-of-type(n) to fix a bug on safari (<= 8.0.8) with multiple adjacent-sibling selectors*/
+    /* show children when item is checked */
+    display: block;
+}
+.topnav ul label,
+.topnav ul a {
+    color: #35383d;   
+    padding-left: 82px;
+}
+.no-touch .topnav ul label:hover, .no-touch
+.topnav ul a:hover {
+    color: #3c3f45;
+}
+.topnav > li:last-of-type > label,
+.topnav > li:last-of-type > a,
+.topnav > li > ul > li:last-of-type label,
+.topnav > li > ul > li:last-of-type a {
+    box-shadow: none;
+}
+.topnav ul label::before {
+    left: 36px;
+}
+.topnav ul label::after,
+.topnav ul a::after {
+    left: 9px;
+}
+.topnav ul ul label,
+.topnav ul ul a {
+    padding-left: 100px;
+}
+.topnav ul ul label::before {
+    left: 4px;
+}
+.topnav ul ul label::after,
+.topnav ul ul a::after {
+    left: 7px;
+}
+.topnav ul ul ul label,
+.topnav ul ul ul a {
+    padding-left: 118px;
+}
+.topnav ul ul ul label::before {
+    left: 2px;
+}
+.topnav ul ul ul label::after,
+.topnav ul ul ul a::after {
+    left: 5px;
+}
+@media only screen and (min-width: 600px) {
+    .topnav label, .topnav a {
+        padding: 24px 24px 24px 82px;
+        font-size: 1.9rem;
+    }
+    .topnav label::before {
+        left: 24px;
+    }
+    .topnav label::after {
+        left: 53px;
+    }
+    .topnav ul label,
+    .topnav ul a {
+        padding-left: 106px;
+    }
+    .topnav ul label::before {
+        left: 48px;
+    }
+    .topnav ul label::after,
+    .topnav ul a::after {
+        left: 77px;
+    }
+    .topnav ul ul label,
+    .topnav ul ul a {
+        padding-left: 130px;
+    }
+    .topnav ul ul label::before {
+        left: 72px;
+    }
+    .topnav ul ul label::after,
+    .topnav ul ul a::after {
+        left: 101px;
+    }
+    .topnav ul ul ul label,
+    .topnav ul ul ul a {
+        padding-left: 154px;
+    }
+    .topnav ul ul ul label::before {
+        left: 96px;
+    }
+    .topnav ul ul ul label::after,
+    .topnav ul ul ul a::after {
+        left: 125px;
+    }
+}
+.topnav.animated label::before {
+    /* this class is used if you're using jquery to animate the accordion */
+    -webkit-transition: -webkit-transform 0.3s;
+    -moz-transition: -moz-transform 0.3s;
+    transition: transform 0.3s;
+}

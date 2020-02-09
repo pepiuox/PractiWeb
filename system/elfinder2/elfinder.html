@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>File Manager</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2" />
+        <!-- jQuery and jQuery UI (REQUIRED) -->
+         <link rel="stylesheet" type="text/css" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+        <!-- elFinder CSS (REQUIRED) -->
+        <link rel="stylesheet" type="text/css" media="screen" href="css/elfinder.min.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/theme.css">
+
+        <!-- elFinder JS (REQUIRED) -->
+        <script type="text/javascript" src="js/elfinder.min.js"></script>
+
+        <!-- elFinder translation (OPTIONAL) -->
+        <script type="text/javascript" src="js/i18n/elfinder.es.js"></script>
+
+        <!-- elFinder initialization (REQUIRED) -->
+        <script type="text/javascript" charset="utf-8">
+            $().ready(function () {
+                var elf = $('#elfinder').elfinder({
+                    url: 'php/connector.php', // connector URL (REQUIRED)
+                    getFileCallback: function (file) {
+                        window.opener.processFile(file);
+                        window.close();
+                    },
+                    resizable: false
+                }).elfinder('instance');
+            });
+        </script>
+    </head>
+    <body>
+
+        <!-- Element where elFinder will be created (REQUIRED) -->
+        <div id="elfinder"></div>
+
+    </body>
+</html>

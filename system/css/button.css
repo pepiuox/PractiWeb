@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25/07/2016, 03:24:05 AM
+    Author     : PePiuoX
+*/
+
+.button {
+    display : inline-block;
+    text-align : center;
+    line-height : 1;
+    cursor : pointer;
+    vertical-align : middle;
+    border : transparent solid 1px;
+    color : #2199e8;
+    background-color : #F2FFFF;
+    margin : 0;
+    padding : 6px 10px;
+}
+.button:focus, .button:hover {
+    background-color : #1583cc;
+    color : #fefefe;
+}
+.button.expanded {
+    display : block;
+    width : 100%;
+    margin-left : 0;
+    margin-right : 0;
+}
+.button.hollow.secondary {
+    border : #777 solid 1px;
+    color : #777;
+}
+.button.hollow.secondary:focus, .button.hollow.secondary:hover {
+    color : #3c3c3c;
+    border-color : #3c3c3c;
+}
+.button.hollow.success {
+    border : #3adb76 solid 1px;
+    color : #3adb76;
+}
+.button.hollow.success:focus, .button.hollow.success:hover {
+    color : #157539;
+    border-color : #157539;
+}
+.button.hollow.warning {
+    border : #ffae00 solid 1px;
+    color : #ffae00;
+}
+.button.hollow.warning:focus, .button.hollow.warning:hover {
+    color : #805700;
+    border-color : #805700;
+}
+.button.hollow.alert {
+    border : #ec5840 solid 1px;
+    color : #ec5840;
+}
+.button.hollow.alert:focus, .button.hollow.alert:hover {
+    color : #881f0e;
+    border-color : #881f0e;
+}
+.button.dropdown:after {
+    content : '';
+    width : 0;
+    height : 0;
+    border : inset 0.4em;
+    border-top-style : solid;
+    border-bottom-width : 0;
+    position : relative;
+    top : 0.4em;
+    float : right;
+    margin-left : 1em;
+    display : inline-block;
+    border-color : #fefefe transparent transparent;
+}
+.button.arrow-only:after {
+    margin-left : 0;
+    float : none;
+    top : -0.1em;
+}
